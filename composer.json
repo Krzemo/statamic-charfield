@@ -1,5 +1,5 @@
 {
-  "name": "appswithlove/statamic-charfield",
+  "name": "krzemo/charfield-fieldtype-fork",
   "license": "MIT",
   "type": "statamic-addon",
   "description": "Character counting field for statamic v3",
@@ -25,6 +25,11 @@
       "providers": [
         "AppsWithLove\\Statamic\\CharField\\ServiceProvider"
       ]
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "pixelfear/composer-dist-plugin": true
     }
   }
 }

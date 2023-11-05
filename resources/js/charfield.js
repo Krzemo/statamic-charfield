@@ -36,10 +36,10 @@ Statamic.$components.register('char_field-fieldtype', {
   
   <div class="help-block" v-if="optimalMin || optimalMax || high">
       <p>
-          <small v-if="optimalMin && optimalMax">{{ translate("statamic-charfield::fieldtypes.ideal_x", {min: optimalMin, max: optimalMax}) }}</small>
-          <small v-if="optimalMin && !optimalMax">{{ translate("statamic-charfield::fieldtypes.min_x", {min: optimalMin}) }}</small>
-          <small v-if="!optimalMin && (optimalMax || high)">{{ translate("statamic-charfield::fieldtypes.max_x", {max: optimalMax || high}) }}</small>
-          <small>&gt; {{ translate("statamic-charfield::fieldtypes.current") }} <strong>{{ dataLength }}</strong></small>
+          <small v-if="optimalMin && optimalMax">{{ translate("charfield.ideal_x", {min: optimalMin, max: optimalMax}) }}</small>
+          <small v-if="optimalMin && !optimalMax">{{ translate("charfield.min_x", {min: optimalMin}) }}</small>
+          <small v-if="!optimalMin && (optimalMax || high)">{{ translate("charfield.max_x", {max: optimalMax || high}) }}</small>
+          <small>&gt; {{ translate("charfield.current") }} <strong>{{ dataLength }}</strong></small>
       </p>
   </div>
 </div>`,

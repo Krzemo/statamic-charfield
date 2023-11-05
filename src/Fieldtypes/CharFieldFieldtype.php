@@ -12,7 +12,7 @@ class CharFieldFieldtype extends Fieldtype
     {
         return [
             'input_type' => [
-                'display' => __('statamic-charfield::fieldtypes.input_type'),
+                'display' => __('charfield.input_type'),
                 'type' => 'select',
                 'default' => 'input',
                 'options' => [
@@ -21,27 +21,27 @@ class CharFieldFieldtype extends Fieldtype
                 ]
             ],
             'low' => [
-                'display' => __('statamic-charfield::fieldtypes.low'),
+                'display' => __('charfield.low'),
                 'type' => 'integer',
                 'width' => 50,
             ],
             'high' => [
-                'display' => __('statamic-charfield::fieldtypes.high'),
+                'display' => __('charfield.high'),
                 'type' => 'integer',
                 'width' => 50,
             ],
             'optimal_min' => [
-                'display' => __('statamic-charfield::fieldtypes.optimal_min'),
+                'display' => __('charfield.optimal_min'),
                 'type' => 'integer',
                 'width' => 50,
             ],
             'optimal_max' => [
-                'display' => __('statamic-charfield::fieldtypes.optimal_max'),
+                'display' => __('charfield.optimal_max'),
                 'type' => 'integer',
                 'width' => 50,
             ],
             'hard_limit' => [
-                'display' => __('statamic-charfield::fieldtypes.hard_limit'),
+                'display' => __('charfield.hard_limit'),
                 'type' => 'integer',
                 'width' => 50,
             ],
